@@ -1,0 +1,6 @@
+.dart_tool/
+build/
+.pub/
+.pub-cache/
+
+pubspec.lock
