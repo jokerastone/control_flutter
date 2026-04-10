@@ -1,7 +1,43 @@
-.dart_tool/
-build/
-.pub/
-.pub-cache/
-
-pubspec.lock
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Flutter/Dart
+.dart_tool/
+.pub/
+.packages
+build/
+pubspec.lock
+
+# Android
+*.iml
+.gradle/
+local.properties
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+
+# VS Code
+.vscode/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# 其他
+*.log
+*.lock
+.DS_Store
+Thumbs.db
